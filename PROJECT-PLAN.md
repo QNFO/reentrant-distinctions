@@ -42,13 +42,13 @@
 
 ## Verification Gates
 
-- [ ] §0.0 Certainty Calibration — every non-textbook claim
-- [ ] §0.0 Bibliographic Integrity — every citation live-verified
-- [ ] §0.0 Falsifiability (KIF-60) — physics claims in §§23–28, §39
-- [ ] §0.0 MAP-TERRITORY-1 — math-as-physics claims
-- [ ] §0.2 Mojibake Scan — every .md file before commit
-- [ ] §0.7 Ostrowski Dimensionless — all physics formulas
-- [ ] Published-Paper Hygiene — no body H1, no internal refs, slug-named files
+- [x] §0.0 Certainty Calibration — every non-textbook claim
+- [x] §0.0 Bibliographic Integrity — every citation live-verified
+- [x] §0.0 Falsifiability (KIF-60) — physics claims in §§23–28, §39
+- [x] §0.0 MAP-TERRITORY-1 — math-as-physics claims
+- [x] §0.2 Mojibake Scan — every .md file before commit
+- [x] §0.7 Ostrowski Dimensionless — all physics formulas
+- [x] Published-Paper Hygiene — no body H1, no internal refs, slug-named files
 
 ---
 
