@@ -3,8 +3,8 @@ title: "The Calculus of Re-Entrant Distinctions: A Unified Treatise on the Loop,
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-12"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21907840"
-status: "draft"
+doi: "10.5281/zenodo.21908428"
+status: "published"
 ---
 
 ## Part I — Foundations: The Act of Distinction

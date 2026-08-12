@@ -1,10 +1,10 @@
 {
-  "parent_record_id": 21906728,
-  "new_record_id": 21907840,
-  "doi": "10.5281/zenodo.21907840",
+  "parent_record_id": 21907840,
+  "new_record_id": 21908428,
+  "doi": "10.5281/zenodo.21908428",
   "conceptdoi": "10.5281/zenodo.21904762",
-  "reserved_doi": "10.5281/zenodo.21907840",
-  "url": "https://zenodo.org/record/21907840",
-  "version": "v0.6",
-  "reason": "FQ3 universal-pi scope amendments (S10.3/S36)"
+  "reserved_doi": "10.5281/zenodo.21908428",
+  "url": "https://zenodo.org/record/21908428",
+  "version": "v0.7",
+  "reason": "Connes attribution in S17 (REG-SLB-003 study)"
 }
