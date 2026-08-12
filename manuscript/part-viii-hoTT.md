@@ -12,7 +12,7 @@
 
 Cohesive homotopy type theory extends homotopy type theory with modalities that distinguish the *continuous* from the *discrete* structure of a type [established — Shulman 2015, arXiv:1509.07584; Schreiber 2013, arXiv:1310.7930]:
 
-- **Shape** $\int$: the continuous component — the fundamental $\infty$-groupoid, the "loops and paths" of the type. The shape modality collapses the topological structure to its homotopical essence.
+- **Shape** $\int$: the continuous component — the $\infty$-groupoid of paths, the "loops and paths" of the type. The shape modality collapses the topological structure to its homotopical core.
 - **Sharp** $\sharp$: the discrete component — the codiscrete structure, the "points with no topology" of the type.
 
 The cohesive triple (shape $\int$, flat $\flat$, sharp $\sharp$) with the adjunction structure distinguishes the continuous (shape) from the discrete (sharp) aspects of every type [established — Shulman 2015].

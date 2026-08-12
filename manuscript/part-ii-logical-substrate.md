@@ -97,7 +97,7 @@ In DiLL, the differential combinator is a proof rule: from a proof of $A \multim
 
 ### 7.2 Linear approximation and the derivative of a proof
 
-The fundamental insight of DiLL [established — Ehrhard & Regnier 2006]: the Taylor expansion of a proof. Any proof $f$ can be written as a sum (in a suitable sense) of its derivatives:
+The central insight of DiLL [established — Ehrhard & Regnier 2006]: the Taylor expansion of a proof. Any proof $f$ can be written as a sum (in a suitable sense) of its derivatives:
 
 $$f = \sum_{n=0}^{\infty} \frac{1}{n!} D^n f(0)$$
 

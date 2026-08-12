@@ -110,7 +110,7 @@ The decomposition: every Lévy process is the sum of
 | Discrete Poisson jump part | Non-Archimedean places ($\mathbb{Q}_p$) — the trees |
 | Total Lévy process | Adeles ($\mathbb{A}_{\mathbb{Q}}$) — the global object |
 
-The Gaussian part is the loop mode: continuous, isotropic, the eigenform of the Fourier transform (§11). The jump part is the tree mode: discrete, memoryless, branching (§30). Every Lévy process decomposes into loop and tree components — the statistical form of the fundamental duality.
+The Gaussian part is the loop mode: continuous, isotropic, the eigenform of the Fourier transform (§11). The jump part is the tree mode: discrete, memoryless, branching (§30). Every Lévy process decomposes into loop and tree components — the statistical form of the central duality.
 
 This reading is [MAP — model of the Lévy–Khintchine formula]; the formula itself is [established].
 
