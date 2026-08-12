@@ -15,7 +15,7 @@
 | FQ2 | Does the coKleisli fixed-point claim of §9.2 hold as a theorem in DiLL (codereliction/differential-operator fixed point = $e$)? | OPEN | Formalize in DiLL; search literature for fixed-point semantics of the exponential modality | YES — REG-SLB-002 |
 | FQ3 | Is the trace of identity on $S^1$ universally $\pi$ in the compact closed structure, or model-dependent? | **SURVEY DONE (2026-08-12, artifacts/fq3-universal-pi-survey.md): MODEL-DEPENDENT — NOT universal.** Holds in the analytic realization (Gaussian normalization, S11.3); NOT in Rel, FinVec, or topological Cob. Claim scope must be qualified in the next treatise version (SOFT scoping finding). | **AMENDED IN SOURCE (2026-08-12, commit 36a9082):** S10.3 + S36 now carry the analytic-realization scope + FQ3 survey citation. Next treatise version (v0.6+) will carry the amended text. | YES |
 | FQ4 | Can the p-adic tree construction (Appendix B) be realized as a higher inductive type with the claimed homotopy type? | OPEN | Implement HIT in a HoTT proof assistant | YES |
-| FQ5 | Does the adelic trace reading of the explicit formula (Appendix C) yield the Riemann–von Mangoldt formula exactly? | OPEN | Develop adelic operator formalism; verify against $\psi(x)$ | YES — REG-SLB-003 |
+| FQ5 | Does the adelic trace reading of the explicit formula (Appendix C) yield the Riemann–von Mangoldt formula exactly? | **ESTABLISHED-ADJACENT (Connes 1999; Connes-Consani-Marcolli 2007 give the explicit formula as an adelic/Lefschetz trace). Treatise must cite Connes in v0.7+; novel core = re-entrant-modal derivation.** | Verify the modal derivation; check ψ(x) numerically | YES — REG-SLB-003 |
 | FQ6 | Is mass-as-re-entry-frequency (§24.1) a re-description or does it carry any observable prediction beyond standard QM phase? | OPEN | KIF-60 null-equivalence analysis; state $O_N$ vs $O_T$ | NO (structural) |
 
 ---
@@ -63,7 +63,7 @@
 - **Falsification:** Trace computation does not reproduce $\psi(x)$.
 - **Data:** Appendix C formalism; computational verification.
 - **Deadline:** 2027-08-12.
-- **Status:** FORMALISM FIRST DRAFT (2026-08-12, artifacts/reg-slb-003-adelic-trace-formalism.md). Established anchor: Weil explicit formula is already a distributional trace (strong plausibility). Open core: cohomological trace reading. Next: study Connes trace-formula program (may upgrade to [established-adjacent] or expose precise falsification).
+- **Status:** ANCHOR UPGRADED (2026-08-12, artifacts/reg-slb-003-connes-study.md): the broad 'explicit formula as adelic trace' claim is **[established-adjacent]** — Connes 1999 (arXiv:math/9811068) gives the geometric trace-formula reading on the adele class space; Connes-Consani-Marcolli 2007 (arXiv:math/0703392) gives the explicit formula as a **Lefschetz trace formula on adelic cohomology**. The treatise must cite Connes in v0.7+. The **novel, open core** is the re-entrant-modal derivation of the trace (loop/tree reading of s<->1-s) — no prior art, remains falsifiable per REG-SLB-003.
 
 ---
 
@@ -105,5 +105,6 @@ Status: [PENDING]
 | 2026-08-12 | QNFO.SLB.002 P7 | Registry created v1.0 after v0.3 publication (DOI 10.5281/zenodo.21905186) |
 | 2026-08-12 | QNFO.SLB.002 P9 | Re-Entrant Machine v0.2 committed (branch slb/artifact/reentrant-machine, 84e4db4): G1-G4 ALL PASS, e=2.7182818284590455, pi=3.141592652354373, e^{i*pi}=-0.9999999999999998+i*1.2e-9 (no imported constants). REG-SLB-002 survey done (artifacts/reg-slb-002-survey.md, no counterexample). Pre-registration overlay published DOI 10.5281/zenodo.21907630 (v1.1; v1.0 21907580 superseded). |
 | 2026-08-12 | QNFO.SLB.002 P9 | **v0.6 PUBLISHED** (DOI 10.5281/zenodo.21907840): FQ3 universal-pi scope amendments (S10.3/S36 scoped to analytic realization) live in the published record. Redistributed + verified: D1 109699, R2 0 diff, Vectorize 161 chunks, KG v0.6, papers.qnfo.org 200. Consolidated closeout 14/14 PASS. |
+| 2026-08-12 | QNFO.SLB.002 P9 | REG-SLB-003 ANCHOR UPGRADED via Connes study (established-adjacent; Connes 1999 + Connes-Consani-Marcolli 2007 confirmed the adelic/Lefschetz trace reading; treatise must cite Connes in v0.7+). Outreach: individual send to Marie Kerjean (kerjean@lipn.fr, corresponding author arXiv:2402.09138) — adversarial-validation framing, message_id fa50097a-37b6-46ff-93ad-5068579b364c, logged in artifacts/outreach-log.md. |
 
 **Maintenance:** Update at every session touching the treatise (drafting, implementation, or publication). Bump registry version on structural changes. Pre-registration scaffolds MUST be published before implementation begins (per KIF-60 pre-registration requirement — timestamped, immutable record).
