@@ -2,7 +2,7 @@
 
 > **WBS:** QNFO.SLB.002 | **Repo:** QNFO/reentrant-distinctions
 > **Branch:** slb/paper/reentrant-distinctions | **Slug:** reentrant-distinctions
-> **Created:** 2026-08-12 | **Status:** P0 Init — scaffolding
+> **Created:** 2026-08-12 | **Status:** PUBLISHED v0.3 (DOI 10.5281/zenodo.21905186) — P7 Dissemination complete
 
 ---
 
@@ -10,16 +10,16 @@
 
 | # | Phase | Status | Description |
 |:--|:------|:-------|:------------|
-| 0 | Init | **IN PROGRESS** | Program registration, repo scaffolding, KG registration |
-| 1 | Due Diligence | pending | Prior art audit across 9 domains |
-| 2 | Literature | pending | Full literature survey |
-| 3 | Citations | pending | Bibliographic integrity gate |
-| 4 | Deep Research | pending | Draft all 40 sections + 4 appendices |
-| 5 | Publication | pending | Compile PDF, red-team review, Zenodo deposit |
-| 6 | Deployment | pending | Appendices, computational artifacts, papers.qnfo.org |
-| 7 | Dissemination | pending | Outreach, cross-refs, demo/slides |
-| 8 | Core Distribution | pending | Five Pillars integration, KG edges |
-| 9 | Extension | pending | Future volumes, spin-off papers |
+| 0 | Init | ✅ COMPLETE | Program registration, repo scaffolding, KG registration |
+| 1 | Due Diligence | ✅ COMPLETE | Prior art audit across 9 domains (verdict: NOVEL) |
+| 2 | Literature | ✅ COMPLETE | Full literature survey (41 refs) |
+| 3 | Citations | ✅ COMPLETE | Bibliographic integrity gate (25/25 PASS) |
+| 4 | Deep Research | ✅ COMPLETE | Draft all 40 sections + 4 appendices |
+| 5 | Publication | ✅ COMPLETE | **PUBLISHED v0.3 (DOI 10.5281/zenodo.21905186)** — v0.1 placeholder superseded; v0.2 red-team'd (2 HARD INTERNAL-REF-1); v0.3 remediated |
+| 6 | Deployment | ✅ COMPLETE | D1, papers.qnfo.org, R2, Vectorize, KG (prog-qnfo-slb) deployed + verified |
+| 7 | Dissemination | ✅ COMPLETE | RESEARCH-CONTINUITY-REGISTRY.md, Internet Archive, IndexNow, PhilPapers-ready |
+| 8 | Core Distribution | ✅ COMPLETE | GitHub tag v0.3, Zenodo newversion, consolidated 11/11 closeout |
+| 9 | Extension | pending | Future volumes, Re-Entrant Machine (Appendix D), pre-registration overlays |
 
 ---
 
