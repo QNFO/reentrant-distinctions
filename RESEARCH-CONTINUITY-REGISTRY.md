@@ -11,7 +11,7 @@
 
 | ID | Question | Status | Next Action | Pre-Reg Suitable |
 |:---|:---------|:-------|:------------|:-----------------|
-| FQ1 | Can the formal system of Part VIII (traced differential cohesive linear HoTT) derive $e^{i\pi} = -1$ without importing $\mathbb{R}$ and $\exp$ as external axioms? | OPEN | Build Appendix D Re-Entrant Machine; attempt G4 | YES — REG-SLB-001 |
+| FQ1 | Can the formal system of Part VIII (traced differential cohesive linear HoTT) derive $e^{i\pi} = -1$ without importing $\mathbb{R}$ and $\exp$ as external axioms? | IN PROGRESS (numerical PoC PASS; formal pending) | Re-Entrant Machine v0.2: G4 PASS numerically (e=2.7182818284590455, pi=3.141592652354373, e^{i*pi}=-0.9999999999999998+i*1.2e-9, no imported constants). Formal proof pending (REG-SLB-001). | YES — REG-SLB-001 |
 | FQ2 | Does the coKleisli fixed-point claim of §9.2 hold as a theorem in DiLL (codereliction/differential-operator fixed point = $e$)? | OPEN | Formalize in DiLL; search literature for fixed-point semantics of the exponential modality | YES — REG-SLB-002 |
 | FQ3 | Is the trace of identity on $S^1$ universally $\pi$ in the compact closed structure, or model-dependent? | OPEN | Survey traced models (Rel, Cob, FinVec); pin the universal claim | YES |
 | FQ4 | Can the p-adic tree construction (Appendix B) be realized as a higher inductive type with the claimed homotopy type? | OPEN | Implement HIT in a HoTT proof assistant | YES |
@@ -49,21 +49,21 @@
 - **Falsification:** Machine (Appendix D) requires external constants.
 - **Data:** Appendix D implementation log; computed trace/fixed-point terms.
 - **Deadline:** 2027-08-12.
-- **Status:** SCAFFOLDED (pre-registration document pending — publish to Zenodo as overlay when implementation begins)
+- **Status:** PRE-REGISTERED (overlay DOI 10.5281/zenodo.21907630 (v1.1; v1.0 21907580 superseded)); numerical PoC PASS (Re-Entrant Machine v0.2, no imported constants: e=2.7182818284590455, pi=3.141592652354373, e^{i*pi}=-0.9999999999999998+i*1.2e-9); FORMAL PROOF PENDING
 
 ### REG-SLB-002 — coKleisli fixed point = e
 - **Hypothesis:** In DiLL semantics, the codereliction/differential-operator fixed point of the exponential modality evaluates to $e$.
 - **Falsification:** A DiLL model where the fixed point is not $e$.
 - **Data:** Formal DiLL model construction.
 - **Deadline:** 2027-08-12.
-- **Status:** SCAFFOLDED
+- **Status:** SURVEY DONE (2026-08-12, artifacts/reg-slb-002-survey.md): no counterexample found in the executed searches; claim remains OPEN (not falsified, not proven). Formal DiLL model construction pending.
 
 ### REG-SLB-003 — explicit formula as adelic trace
 - **Hypothesis:** The Riemann–von Mangoldt explicit formula arises as a trace identity in adelic cohomology.
 - **Falsification:** Trace computation does not reproduce $\psi(x)$.
 - **Data:** Appendix C formalism; computational verification.
 - **Deadline:** 2027-08-12.
-- **Status:** SCAFFOLDED
+- **Status:** SCAFFOLDED (pre-registration registered in overlay DOI 10.5281/zenodo.21907630 (v1.1; v1.0 21907580 superseded))
 
 ---
 
@@ -103,5 +103,6 @@ Status: [PENDING]
 | Date | Session | Action |
 |:-----|:--------|:-------|
 | 2026-08-12 | QNFO.SLB.002 P7 | Registry created v1.0 after v0.3 publication (DOI 10.5281/zenodo.21905186) |
+| 2026-08-12 | QNFO.SLB.002 P9 | Re-Entrant Machine v0.2 committed (branch slb/artifact/reentrant-machine, 84e4db4): G1-G4 ALL PASS, e=2.7182818284590455, pi=3.141592652354373, e^{i*pi}=-0.9999999999999998+i*1.2e-9 (no imported constants). REG-SLB-002 survey done (artifacts/reg-slb-002-survey.md, no counterexample). Pre-registration overlay published DOI 10.5281/zenodo.21907630 (v1.1; v1.0 21907580 superseded). |
 
 **Maintenance:** Update at every session touching the treatise (drafting, implementation, or publication). Bump registry version on structural changes. Pre-registration scaffolds MUST be published before implementation begins (per KIF-60 pre-registration requirement — timestamped, immutable record).
