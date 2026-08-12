@@ -79,11 +79,11 @@ The frequency of the trembling is $2m$ (in Planck units) — twice the Compton f
 
 ### 25.3 The radius lambda_C / 4 pi as the size of the primal circle
 
-[my conjecture] The zitterbewegung amplitude — the reduced Compton wavelength divided by $4\pi$ — is the *size of the primal circle* of the re-entrant mark. In Planck units:
+The standard zitterbewegung amplitude is the reduced Compton wavelength divided by 2: $r_{\text{zitter}} = \lambda_C/2 = 1/(2m)$ [established — standard quantum mechanics, amplitude $\hbar/(2mc)$]. The treatise additionally develops a *primal circle radius* — the reduced Compton wavelength divided by $4\pi$ — as the size of the primal circle of the re-entrant mark [my conjecture]:
 
-$$r_{\text{zitter}} = \frac{\lambda_C}{4\pi} = \frac{1}{4\pi m}$$
+$$r_{\text{primal}} = \frac{\lambda_C}{4\pi} = \frac{1}{4\pi m}$$
 
-The factor $4\pi$ is the surface area of the unit sphere ($4\pi r^2$ at $r=1$) — the three-dimensional counterpart of the $2\pi$ of the circle (§10). The appearance of $4\pi$ in the trembling radius is [established] (it is the standard quantum-mechanical factor); the interpretation as "the size of the primal circle" is [MAP — model of zitterbewegung].
+The factor $4\pi$ is the surface area of the unit sphere ($4\pi r^2$ at $r=1$) — the three-dimensional counterpart of the $2\pi$ of the circle (§10). The interpretation of this radius as "the size of the primal circle" is [MAP — model of zitterbewegung]; it is a geometric interpretation, not the standard oscillation amplitude.
 
 ---
 

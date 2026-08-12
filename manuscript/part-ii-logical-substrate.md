@@ -119,7 +119,7 @@ entirely syntactically, from the differential combinator and the exponential mod
 
 ### 8.1 Cut-elimination as a dynamical system
 
-The Geometry of Interaction (GoI) program [established — Girard 1989, DOI 10.1017/S0305004100074338; Abramsky 2005] interprets proofs as dynamical systems: cut-elimination is not a static rewriting process but the *time-evolution* of an interaction. A proof is a network; its execution is the flow of tokens through the network; the result of cut-elimination is the fixed point of that flow.
+The Geometry of Interaction (GoI) program [established — Girard 1989; Abramsky 2005] interprets proofs as dynamical systems: cut-elimination is not a static rewriting process but the *time-evolution* of an interaction. A proof is a network; its execution is the flow of tokens through the network; the result of cut-elimination is the fixed point of that flow.
 
 The GoI interpretation is the first place in the treatise where *time* appears as an internal feature of proof theory — echoing the temporal reading of the re-entrant mark in Part I, §3. The re-entrant mark and the GoI token are [MAP — model of each other]: both are primitive dynamical processes whose equilibrium is a fixed point.
 

@@ -4,7 +4,7 @@ author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-12"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 doi: "10.5281/zenodo.21906635"
-status: "published"
+status: "draft"
 ---
 
 ## Part I — Foundations: The Act of Distinction
@@ -275,7 +275,7 @@ entirely syntactically, from the differential combinator and the exponential mod
 
 #### 8.1 Cut-elimination as a dynamical system
 
-The Geometry of Interaction (GoI) program [established — Girard 1989, DOI 10.1017/S0305004100074338; Abramsky 2005] interprets proofs as dynamical systems: cut-elimination is not a static rewriting process but the *time-evolution* of an interaction. A proof is a network; its execution is the flow of tokens through the network; the result of cut-elimination is the fixed point of that flow.
+The Geometry of Interaction (GoI) program [established — Girard 1989; Abramsky 2005] interprets proofs as dynamical systems: cut-elimination is not a static rewriting process but the *time-evolution* of an interaction. A proof is a network; its execution is the flow of tokens through the network; the result of cut-elimination is the fixed point of that flow.
 
 The GoI interpretation is the first place in the treatise where *time* appears as an internal feature of proof theory — echoing the temporal reading of the re-entrant mark in Part I, §3. The re-entrant mark and the GoI token are [MAP — model of each other]: both are primitive dynamical processes whose equilibrium is a fixed point.
 
@@ -857,11 +857,11 @@ The frequency of the trembling is $2m$ (in Planck units) — twice the Compton f
 
 #### 25.3 The radius lambda_C / 4 pi as the size of the primal circle
 
-[my conjecture] The zitterbewegung amplitude — the reduced Compton wavelength divided by $4\pi$ — is the *size of the primal circle* of the re-entrant mark. In Planck units:
+The standard zitterbewegung amplitude is the reduced Compton wavelength divided by 2: $r_{\text{zitter}} = \lambda_C/2 = 1/(2m)$ [established — standard quantum mechanics, amplitude $\hbar/(2mc)$]. The treatise additionally develops a *primal circle radius* — the reduced Compton wavelength divided by $4\pi$ — as the size of the primal circle of the re-entrant mark [my conjecture]:
 
-$$r_{\text{zitter}} = \frac{\lambda_C}{4\pi} = \frac{1}{4\pi m}$$
+$$r_{\text{primal}} = \frac{\lambda_C}{4\pi} = \frac{1}{4\pi m}$$
 
-The factor $4\pi$ is the surface area of the unit sphere ($4\pi r^2$ at $r=1$) — the three-dimensional counterpart of the $2\pi$ of the circle (§10). The appearance of $4\pi$ in the trembling radius is [established] (it is the standard quantum-mechanical factor); the interpretation as "the size of the primal circle" is [MAP — model of zitterbewegung].
+The factor $4\pi$ is the surface area of the unit sphere ($4\pi r^2$ at $r=1$) — the three-dimensional counterpart of the $2\pi$ of the circle (§10). The interpretation of this radius as "the size of the primal circle" is [MAP — model of zitterbewegung]; it is a geometric interpretation, not the standard oscillation amplitude.
 
 ---
 
