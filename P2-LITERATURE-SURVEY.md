@@ -128,6 +128,17 @@
 
 ---
 
+
+### 4b. Connes trace-formula program (added 2026-08-12 per REG-SLB-003 Connes study)
+
+| Reference | Type | Relevance |
+|:----------|:-----|:----------|
+| Connes, A. (1999). Trace formula in noncommutative geometry and the zeros of the Riemann zeta function. *Selecta Math.*, 5(1), 29-106. arXiv:math/9811068. | Paper | **ESTABLISHES** the explicit formulas as a trace formula on the noncommutative adele class space — the treatise's S17.1 adelic-trace reading is prior art, must be attributed |
+| Connes, A., Consani, C., Marcolli, M. (2007). The Weil proof and the geometry of the adeles class space. arXiv:math/0703392. | Paper | **ESTABLISHES** Weil's explicit formula as a Lefschetz trace formula on adelic cohomology — the treatise's 'trace in adelic cohomology' phrasing is not novel in its technical content |
+| Connes, A., Consani, C. (2020). Weil positivity and trace formula, the archimedean place. arXiv:2006.13771. | Paper | Archimedean (loop-side) complement of the trace-formula framework |
+
+**Verdict (2026-08-12):** REG-SLB-003's broad claim is [established-adjacent] — the treatise MUST cite Connes 1999 + CCM 2007; the novel core is the re-entrant-modal derivation of the trace.
+
 ## Reference Count by Domain
 
 | Domain | Canonical Refs | QNFO Refs | Total |

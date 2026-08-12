@@ -140,13 +140,13 @@ where $\xi(s)$ is the completed zeta function. The symmetry $s \leftrightarrow 1
 
 ### 17.1 The completed Riemann zeta function as an adelic trace
 
-[my conjecture] The completed zeta function $\xi(s)$ is the *trace* of the adelic Fourier transform: it is computed by the trace formula that Tate's thesis establishes, and the functional equation is the trace identity
+The completed zeta function $\xi(s)$ is the *trace* of the adelic Fourier transform: it is computed by the trace formula that Tate's thesis establishes, and the functional equation is the trace identity — a reading that is now [established] in the literature, where the explicit formulas of number theory are realized as a trace formula on the noncommutative space of adele classes (Connes 1999, Selecta Math. 5, 29–106; arXiv:math/9811068) and Weil's explicit formula is formulated as a Lefschetz trace formula on the cohomology of the adeles class space (Connes–Consani–Marcolli 2007, arXiv:math/0703392). What remains conjectural in this treatise is not the trace identity itself but its *re-entrant-modal derivation* — the claim that the loop–tree structure of the mark calculus generates that trace, rather than only re-describing it. That modal derivation is [my conjecture].
 
 $$\xi(s) = \xi(1-s)$$
 
 that expresses the self-duality of the adelic structure under the global Fourier transform (§16.3). The trace-theoretic reading connects this part to Part II (§8.2: the trace as feedback): the zeta function is the *feedback loop* of the global distinction system — the invariant that counts the global structure's self-relations.
 
-The precise content: the explicit formula of analytic number theory (Riemann–von Mangoldt) expresses the prime counting function in terms of the zeros of $\zeta(s)$, and this formula has a trace-theoretic interpretation as the trace of an operator on the adelic space [my conjecture — developed in Appendix C].
+The precise content: the explicit formula of analytic number theory (Riemann–von Mangoldt) expresses the prime counting function in terms of the zeros of $\zeta(s)$, and this formula has a trace-theoretic interpretation as the trace of an operator on the adelic space — established in the Connes program (Connes 1999; Connes–Consani–Marcolli 2007; see also the archimedean trace-formula refinement, Connes–Consani 2020, arXiv:2006.13771). The treatise's contribution is the modal reading developed in Appendix C: the specific loop–tree (re-entrant) structure that the trace realizes [my conjecture].
 
 ### 17.2 The symmetry s <-> 1-s as a form of duality
 
