@@ -4,7 +4,7 @@ author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-12"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 doi: "10.5281/zenodo.21905186"
-status: "published"
+status: "draft"
 ---
 
 ## Part I — Foundations: The Act of Distinction
@@ -18,7 +18,7 @@ The unmarked state. The first boundary. Why there is something rather than nothi
 
 This treatise develops a single thesis: that the primitive act of distinction — the drawing of a boundary between marked and unmarked — generates, under the discipline of re-entry and linear resource management, the constants $e$ and $\pi$, the landscape of completions of the rational numbers, the loop–tree duality of the Langlands program, the mathematical structure of quantum theory, and the grammar of a universal logical language. Each part of the treatise is a witness to this thesis in a different domain. This first part establishes the calculus from which everything else is derived.
 
-The foundational claim is mathematical, not metaphysical: the calculus of indications [established — Spencer-Brown 1969] provides a minimal formal system in which the act of distinction is the only primitive. What we add in this treatise is a systematic study of what happens when that mark is allowed to *re-enter* its own form — a move that Spencer-Brown identified as producing the imaginary Boolean value and, with it, the possibility of time [established — Spencer-Brown 1969, Chapter 11]. The further claim of this treatise — that re-entry under linear discipline generates the exponential and circular constants as *logical scalars* — is [my conjecture], developed in Part III.
+The foundational claim is mathematical, not metaphysical: the calculus of indications [established — Spencer-Brown 1969] provides a minimal formal system in which the act of distinction is the only primitive. What we add in this treatise is a systematic study of what happens when that mark is allowed to *re-enter* its own form — a move that Spencer-Brown identified as producing the imaginary Boolean value and, with it, the possibility of time [established — Spencer-Brown 1969, Chapter 11]. The further claim of this treatise — that re-entry under linear discipline generates the exponential and circular constants *as logical scalars* — is [my conjecture], developed in Part III. The treatise builds on published predecessors in the calculus of distinction: *Quantum Laws of Form* (DOI 10.5281/zenodo.21205582) and *The Calculus of Distinction: A Formal Isomorphism Between Laws of Form and Ultrametric Trees* (DOI 10.5281/zenodo.21205097). The physical identities developed in Part VI are interpretative re-descriptions of established quantum mechanics, not new predictions; the formal claims of Part III are pre-registered for computational verification.
 
 ---
 
@@ -497,7 +497,7 @@ The single Archimedean place is the one smooth loop; the countably infinite fami
 
 #### 13.3 Connection to prior published work
 
-This treatise's Part IV develops the adelic reading of the number system that prior published work has established: the physical continuum is the restricted product over all places [established — Continuum Trilogy, DOI 10.5281/zenodo.21672990], and dimensionless ratios preserve place-democracy [established — Non-Anthropocentric Natural Units, DOI 10.5281/zenodo.21480756]. The novel contribution of this treatise is the *modal-logical* derivation: the places are not ad hoc mathematical objects but the completions forced by the distinction calculus's two modes of self-reference (loop and tree).
+This treatise's Part IV develops the adelic reading of the number system that prior published work has established: the physical continuum is the restricted product over all places [established — Continuum Trilogy, DOI 10.5281/zenodo.21672990], and dimensionless ratios preserve place-democracy [established — Non-Anthropocentric Natural Units, DOI 10.5281/zenodo.21480756]. The broader consilient synthesis across the research portfolio is documented in *Five Pillars, One Framework* (DOI 10.5281/zenodo.21789920). The novel contribution of this treatise is the *modal-logical* derivation: the places are not ad hoc mathematical objects but the completions forced by the distinction calculus's two modes of self-reference (loop and tree).
 
 ---
 

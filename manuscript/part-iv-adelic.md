@@ -37,7 +37,7 @@ The single Archimedean place is the one smooth loop; the countably infinite fami
 
 ### 13.3 Connection to prior published work
 
-This treatise's Part IV develops the adelic reading of the number system that prior published work has established: the physical continuum is the restricted product over all places [established — Continuum Trilogy, DOI 10.5281/zenodo.21672990], and dimensionless ratios preserve place-democracy [established — Non-Anthropocentric Natural Units, DOI 10.5281/zenodo.21480756]. The novel contribution of this treatise is the *modal-logical* derivation: the places are not ad hoc mathematical objects but the completions forced by the distinction calculus's two modes of self-reference (loop and tree).
+This treatise's Part IV develops the adelic reading of the number system that prior published work has established: the physical continuum is the restricted product over all places [established — Continuum Trilogy, DOI 10.5281/zenodo.21672990], and dimensionless ratios preserve place-democracy [established — Non-Anthropocentric Natural Units, DOI 10.5281/zenodo.21480756]. The broader consilient synthesis across the research portfolio is documented in *Five Pillars, One Framework* (DOI 10.5281/zenodo.21789920). The novel contribution of this treatise is the *modal-logical* derivation: the places are not ad hoc mathematical objects but the completions forced by the distinction calculus's two modes of self-reference (loop and tree).
 
 ---
 
