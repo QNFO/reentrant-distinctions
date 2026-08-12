@@ -1,9 +1,10 @@
 {
-  "parent_record_id": 21906635,
-  "new_record_id": 21906728,
-  "doi": "10.5281/zenodo.21906728",
+  "parent_record_id": 21906728,
+  "new_record_id": 21907840,
+  "doi": "10.5281/zenodo.21907840",
   "conceptdoi": "10.5281/zenodo.21904762",
-  "url": "https://zenodo.org/record/21906728",
-  "version": "v0.5",
-  "reason": "2 HARD accuracy fixes from reviewer subagent"
+  "reserved_doi": "10.5281/zenodo.21907840",
+  "url": "https://zenodo.org/record/21907840",
+  "version": "v0.6",
+  "reason": "FQ3 universal-pi scope amendments (S10.3/S36)"
 }
