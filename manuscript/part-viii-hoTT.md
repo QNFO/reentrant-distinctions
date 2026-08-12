@@ -73,7 +73,7 @@ The identification: the de Rham stack construction (quotient by $\Im$) computes 
 
 [my conjecture] In the traced differential cohesive linear type theory of this part, the constants are *theorems of the type system*:
 
-- **$\pi$**: the trace of the identity on the circle type $S^1$ (Part III, §10.3) — internalized as a scalar in the type theory: $\pi = Tr^{S^1}(\text{id})$.
+- **$\pi$**: the trace of the identity on the circle type $S^1$ (Part III, §10.3) — internalized as a scalar in the type theory: $\pi = Tr^{S^1}(\text{id})$. **Scoped per FQ3 (2026-08-12):** this holds in the analytic realization of the type theory (where $S^1$ carries its geometric structure and the trace computes via the §11.3 Gaussian construction); it is not a theorem of the bare traced-categorical structure, where the trace of identity is model-dependent (relation in Rel, dimension in FinVec, Euler characteristic in Cob).
 - **$e$**: the fixed point of the differential exponential (Part III, §9) — internalized as the solution of $D f = f$ in the infinitesimal shape modality: $e = f(1)$ where $D f = f$, $f(0) = 1$.
 
 The claim is [my conjecture] in its strong form — that a single type theory derives both constants from its own structure. What is [established] is each component: the circle type, the trace operator, the differential combinator, and the fixed-point equation. The novel claim is their composition into a single system that *computes* the constants.

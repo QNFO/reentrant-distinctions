@@ -66,7 +66,7 @@ This self-duality is the type-theoretic form of the re-entrant mark's self-refer
 
 ### 10.3 The trace of the identity on S^1 yields pi
 
-[my conjecture] The scalar $\pi$ is the *trace of the identity on the circle type*: in the traced/compact closed structure of Part II, the trace of the identity morphism on the self-dual circle object is a scalar, and that scalar is $\pi$.
+[my conjecture] The scalar $\pi$ is the *trace of the identity on the circle type*: in the traced/compact closed structure of Part II, the trace of the identity morphism on the self-dual circle object is a scalar, and that scalar is $\pi$ **in the analytic realization** (where the circle carries its geometric structure and the trace is computed by the Gaussian-integral construction of §11.3). The FQ3 model survey (2026-08-12, artifacts/fq3-universal-pi-survey.md) shows this is **not a universal categorical theorem**: in Rel the trace of identity is a relation, in FinVec it is the dimension, and in topological Cob it is the Euler characteristic — none yields $\pi$. The claim is therefore scoped: it holds where the circle's metric/geometric structure is present, not in bare traced monoidal categories.
 
 The formal content: in a traced monoidal category [established — Joyal, Street & Verity 1996], the trace $Tr(id_{S^1})$ of the identity on the circle object produces an element of the monoidal unit — a scalar. For the circle, this scalar is the circumference-to-diameter ratio:
 
