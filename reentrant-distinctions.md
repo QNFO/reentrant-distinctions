@@ -4,7 +4,7 @@ author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-12"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
 doi: "10.5281/zenodo.21904772"
-status: "published"
+status: "draft"
 ---
 
 ## Part I — Foundations: The Act of Distinction
@@ -495,9 +495,9 @@ The structure of Ostrowski's theorem is itself the loop–tree duality:
 
 The single Archimedean place is the one smooth loop; the countably infinite family of p-adic places is the infinitely branching forest of trees. This is [established] as a fact about Ostrowski's theorem; the modal reading is [my conjecture].
 
-#### 13.3 Connection to the QNFO program
+#### 13.3 Connection to prior published work
 
-This treatise's Part IV develops the adelic reading of the number system that the QNFO program has established in its publications: the physical continuum is the restricted product over all places [established — Continuum Trilogy, DOI 10.5281/zenodo.21672990], and dimensionless ratios preserve place-democracy [established — Non-Anthropocentric Natural Units, DOI 10.5281/zenodo.21480756]. The novel contribution of this treatise is the *modal-logical* derivation: the places are not ad hoc mathematical objects but the completions forced by the distinction calculus's two modes of self-reference (loop and tree).
+This treatise's Part IV develops the adelic reading of the number system that prior published work has established: the physical continuum is the restricted product over all places [established — Continuum Trilogy, DOI 10.5281/zenodo.21672990], and dimensionless ratios preserve place-democracy [established — Non-Anthropocentric Natural Units, DOI 10.5281/zenodo.21480756]. The novel contribution of this treatise is the *modal-logical* derivation: the places are not ad hoc mathematical objects but the completions forced by the distinction calculus's two modes of self-reference (loop and tree).
 
 ---
 
@@ -833,7 +833,7 @@ This reading is [MAP — model of the Compton phase]; the phase factor itself is
 
 #### 24.3 Dimensionless consistency
 
-Per §0.7: the dimensional form $\omega_C = mc^2/\hbar$ is presented for recognizability; the dimensionless form $\omega_C = m$ (both in Planck units) is the compliant presentation. The ratio $\omega_C t = m t$ (frequency times time) is a pure number, preserving place-democracy (the ratio exists at every completion of $\mathbb{Q}$).
+Per the dimensionless-formulation convention: the dimensional form $\omega_C = mc^2/\hbar$ is presented for recognizability; the dimensionless form $\omega_C = m$ (both in Planck units) is the compliant presentation. The ratio $\omega_C t = m t$ (frequency times time) is a pure number, preserving place-democracy (the ratio exists at every completion of $\mathbb{Q}$).
 
 ---
 
@@ -1249,7 +1249,7 @@ The table is [my conjecture] as a complete dictionary. Its verification status:
 
 #### 39.2 Falsifiability and the KIF-60 gate
 
-**This section is the treatise's highest-risk claim.** The Primal Algorithm must pass the Bayesian evidential weight gate (KIF-60):
+**This section is the treatise's highest-risk claim (per the P1 audit).** The Primal Algorithm must pass the Bayesian evidential weight gate (KIF-60):
 
 - **Pre-registration:** the algorithm's *predictions* — what novel structures it generates that are not already known — must be stated before the algorithm's outputs are "verified." The danger: the algorithm "explains" everything already known by construction (retrodiction). The honest position: the algorithm is a *re-description* of known mathematics and physics, not a generator of new predictions, UNLESS its novel outputs are specified in advance.
 - **Falsifiability gradient:** at least one concrete observation or construction that would kill the algorithm's claim must be stated. Candidates: (a) a mathematical structure that the algorithm claims to generate but demonstrably cannot (e.g., a number system not covered by Ostrowski's classification); (b) a physical law that the algorithm's modal reading contradicts.

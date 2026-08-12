@@ -61,7 +61,7 @@ The table is [my conjecture] as a complete dictionary. Its verification status:
 
 ### 39.2 Falsifiability and the KIF-60 gate
 
-**This section is the treatise's highest-risk claim (per the P1 audit).** The Primal Algorithm must pass the Bayesian evidential weight gate (KIF-60, QNFO Core §0.0):
+**This section is the treatise's highest-risk claim (per the P1 audit).** The Primal Algorithm must pass the Bayesian evidential weight gate (KIF-60):
 
 - **Pre-registration:** the algorithm's *predictions* — what novel structures it generates that are not already known — must be stated before the algorithm's outputs are "verified." The danger: the algorithm "explains" everything already known by construction (retrodiction). The honest position: the algorithm is a *re-description* of known mathematics and physics, not a generator of new predictions, UNLESS its novel outputs are specified in advance.
 - **Falsifiability gradient:** at least one concrete observation or construction that would kill the algorithm's claim must be stated. Candidates: (a) a mathematical structure that the algorithm claims to generate but demonstrably cannot (e.g., a number system not covered by Ostrowski's classification); (b) a physical law that the algorithm's modal reading contradicts.
@@ -87,7 +87,7 @@ The loop closes. The tree is still.
 
 ### 40.3 The status of the closing claim
 
-The closing claim is [PHILOSOPHY] — it steps from mathematics and physics into philosophy, and is labeled as such per QNFO Core §0.0 (Philosophy Boundary). It is not a mathematical or empirical claim; it is the treatise's statement of its own shape: a circle that returns to its beginning, like the re-entrant mark that returns to itself.
+The closing claim is [PHILOSOPHY] — it steps from mathematics and physics into philosophy, and is labeled as such (Philosophy Boundary). It is not a mathematical or empirical claim; it is the treatise's statement of its own shape: a circle that returns to its beginning, like the re-entrant mark that returns to itself.
 
 ---
 

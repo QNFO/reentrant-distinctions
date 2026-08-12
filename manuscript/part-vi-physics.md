@@ -55,7 +55,7 @@ This reading is [MAP — model of the Compton phase]; the phase factor itself is
 
 ### 24.3 Dimensionless consistency
 
-Per §0.7: the dimensional form $\omega_C = mc^2/\hbar$ is presented for recognizability; the dimensionless form $\omega_C = m$ (both in Planck units) is the compliant presentation. The ratio $\omega_C t = m t$ (frequency times time) is a pure number, preserving place-democracy (the ratio exists at every completion of $\mathbb{Q}$).
+Per the dimensionless-formulation convention: the dimensional form $\omega_C = mc^2/\hbar$ is presented for recognizability; the dimensionless form $\omega_C = m$ (both in Planck units) is the compliant presentation. The ratio $\omega_C t = m t$ (frequency times time) is a pure number, preserving place-democracy (the ratio exists at every completion of $\mathbb{Q}$).
 
 ---
 
@@ -107,7 +107,7 @@ The claim is [TERRITORY — claimed identity] with falsifiability condition: the
 
 The transition $! \to ?$ is the modal collapse: the continuous loop resolves into a discrete branch when the observer's distinction (the trace) is drawn. This reading is [my conjecture]; it is the treatise's contribution to the interpretation of measurement, connecting it to the modal pair of Part II.
 
-**Falsifiability note (per QNFO Core §0.0):** this section does not propose a new physical mechanism; it provides a modal-logical *re-description* of the standard formalism. As a re-description it is [not yet falsifiable] as a physical claim — it carries no new predictions. Its value is organizational: it connects the measurement problem to the loop–tree duality of the rest of the treatise.
+**Falsifiability note:** this section does not propose a new physical mechanism; it provides a modal-logical *re-description* of the standard formalism. As a re-description it is [not yet falsifiable] as a physical claim — it carries no new predictions. Its value is organizational: it connects the measurement problem to the loop–tree duality of the rest of the treatise.
 
 ---
 
