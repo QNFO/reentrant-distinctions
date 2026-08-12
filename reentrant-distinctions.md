@@ -3,8 +3,8 @@ title: "The Calculus of Re-Entrant Distinctions: A Unified Treatise on the Loop,
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-08-12"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21906728"
-status: "published"
+doi: "10.5281/zenodo.21906635"
+status: "draft"
 ---
 
 ## Part I — Foundations: The Act of Distinction
@@ -281,7 +281,7 @@ The GoI interpretation is the first place in the treatise where *time* appears a
 
 #### 8.2 The trace as feedback
 
-The mathematical structure underlying GoI is the *trace* of a monoidal category [established — Joyal, Street & Verity 1996]. The trace operation $Tr$ takes a morphism $f: A \otimes U \to B \otimes U$ and produces $Tr^U(f): A \to B$, "closing the loop" on the shared resource $U$ — feeding $U$ back into itself.
+The mathematical structure underlying GoI is the *trace* of a monoidal category [established — Joyal, Street & Verity 1996, DOI 10.1017/S0305004100074338]. The trace operation $Tr$ takes a morphism $f: A \otimes U \to B \otimes U$ and produces $Tr^U(f): A \to B$, "closing the loop" on the shared resource $U$ — feeding $U$ back into itself.
 
 The trace is the categorical formalization of **feedback**: a system whose output is routed back into its input. The connection to the re-entrant mark is direct: re-entry is feedback, and the trace is its categorical form.
 
