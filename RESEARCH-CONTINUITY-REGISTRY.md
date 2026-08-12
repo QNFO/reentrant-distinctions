@@ -56,7 +56,7 @@
 - **Falsification:** A DiLL model where the fixed point is not $e$.
 - **Data:** Formal DiLL model construction.
 - **Deadline:** 2027-08-12.
-- **Status:** MODEL CONSTRUCTION DONE (2026-08-12, artifacts/reg-slb-002-diLL-model.md): in the standard smooth model (convenient vector spaces, coKleisli of !), the codereliction/differential fixed point satisfies Df=f, f(0)=1 -> unique solution e^x -> fixed point = e. **Claim CONFIRMED in the standard smooth model; OPEN as a bare categorical theorem** (consistent with the FQ3 model-dependence lesson). Next: search for a non-analytic model (finiteness/relational) where the fixed point fails — would falsify the categorical claim.
+- **Status:** MODEL CONSTRUCTION DONE (2026-08-12, artifacts/reg-slb-002-diLL-model.md): in the standard smooth model (convenient vector spaces, coKleisli of !), the codereliction/differential fixed point satisfies Df=f, f(0)=1 -> unique solution e^x -> fixed point = e. **Claim CONFIRMED in the standard smooth model; OPEN as a bare categorical theorem** (consistent with the FQ3 model-dependence lesson). **COUNTEREXAMPLE SEARCH DONE (2026-08-12, artifacts/reg-slb-002-counterexample-search.md):** no counterexample found — in relational/finiteness-space models the fixed-point equation has no analytic solution (e not definable; scalar structure not real-analytic), so the claim is UNDEFINED there, not false. Claim scoped (mirror of FQ3): confirmed in analytic models; OPEN as a universal categorical theorem. Next: amend §9.2 scoping in the next treatise version.
 
 ### REG-SLB-003 — explicit formula as adelic trace
 - **Hypothesis:** The Riemann–von Mangoldt explicit formula arises as a trace identity in adelic cohomology.
