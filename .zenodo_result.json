@@ -1,9 +1,9 @@
 {
-  "parent_record_id": 21904772,
-  "new_record_id": 21905186,
-  "doi": "10.5281/zenodo.21905186",
+  "parent_record_id": 21905186,
+  "new_record_id": 21906635,
+  "doi": "10.5281/zenodo.21906635",
   "conceptdoi": "10.5281/zenodo.21904762",
-  "url": "https://zenodo.org/record/21905186",
-  "version": "v0.3",
-  "reason": "red-team INTERNAL-REF-1 remediation"
+  "url": "https://zenodo.org/record/21906635",
+  "version": "v0.4",
+  "reason": "UIA application + SOFT-1 predecessor citations"
 }
