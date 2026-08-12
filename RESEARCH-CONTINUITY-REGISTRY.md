@@ -13,7 +13,7 @@
 |:---|:---------|:-------|:------------|:-----------------|
 | FQ1 | Can the formal system of Part VIII (traced differential cohesive linear HoTT) derive $e^{i\pi} = -1$ without importing $\mathbb{R}$ and $\exp$ as external axioms? | IN PROGRESS (numerical PoC PASS; formal pending) | Re-Entrant Machine v0.2: G4 PASS numerically (e=2.7182818284590455, pi=3.141592652354373, e^{i*pi}=-0.9999999999999998+i*1.2e-9, no imported constants). Formal proof pending (REG-SLB-001). | YES — REG-SLB-001 |
 | FQ2 | Does the coKleisli fixed-point claim of §9.2 hold as a theorem in DiLL (codereliction/differential-operator fixed point = $e$)? | OPEN | Formalize in DiLL; search literature for fixed-point semantics of the exponential modality | YES — REG-SLB-002 |
-| FQ3 | Is the trace of identity on $S^1$ universally $\pi$ in the compact closed structure, or model-dependent? | **SURVEY DONE (2026-08-12, artifacts/fq3-universal-pi-survey.md): MODEL-DEPENDENT — NOT universal.** Holds in the analytic realization (Gaussian normalization, S11.3); NOT in Rel, FinVec, or topological Cob. Claim scope must be qualified in the next treatise version (SOFT scoping finding). | Amend S10.3/S36 scope: analytic-model claim, not bare categorical theorem | YES |
+| FQ3 | Is the trace of identity on $S^1$ universally $\pi$ in the compact closed structure, or model-dependent? | **SURVEY DONE (2026-08-12, artifacts/fq3-universal-pi-survey.md): MODEL-DEPENDENT — NOT universal.** Holds in the analytic realization (Gaussian normalization, S11.3); NOT in Rel, FinVec, or topological Cob. Claim scope must be qualified in the next treatise version (SOFT scoping finding). | **AMENDED IN SOURCE (2026-08-12, commit 36a9082):** S10.3 + S36 now carry the analytic-realization scope + FQ3 survey citation. Next treatise version (v0.6+) will carry the amended text. | YES |
 | FQ4 | Can the p-adic tree construction (Appendix B) be realized as a higher inductive type with the claimed homotopy type? | OPEN | Implement HIT in a HoTT proof assistant | YES |
 | FQ5 | Does the adelic trace reading of the explicit formula (Appendix C) yield the Riemann–von Mangoldt formula exactly? | OPEN | Develop adelic operator formalism; verify against $\psi(x)$ | YES — REG-SLB-003 |
 | FQ6 | Is mass-as-re-entry-frequency (§24.1) a re-description or does it carry any observable prediction beyond standard QM phase? | OPEN | KIF-60 null-equivalence analysis; state $O_N$ vs $O_T$ | NO (structural) |
@@ -63,7 +63,7 @@
 - **Falsification:** Trace computation does not reproduce $\psi(x)$.
 - **Data:** Appendix C formalism; computational verification.
 - **Deadline:** 2027-08-12.
-- **Status:** SCAFFOLDED (pre-registration registered in overlay DOI 10.5281/zenodo.21907630 (v1.1; v1.0 21907580 superseded))
+- **Status:** FORMALISM FIRST DRAFT (2026-08-12, artifacts/reg-slb-003-adelic-trace-formalism.md). Established anchor: Weil explicit formula is already a distributional trace (strong plausibility). Open core: cohomological trace reading. Next: study Connes trace-formula program (may upgrade to [established-adjacent] or expose precise falsification).
 
 ---
 
