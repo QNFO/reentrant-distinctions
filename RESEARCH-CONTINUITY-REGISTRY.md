@@ -104,5 +104,6 @@ Status: [PENDING]
 |:-----|:--------|:-------|
 | 2026-08-12 | QNFO.SLB.002 P7 | Registry created v1.0 after v0.3 publication (DOI 10.5281/zenodo.21905186) |
 | 2026-08-12 | QNFO.SLB.002 P9 | Re-Entrant Machine v0.2 committed (branch slb/artifact/reentrant-machine, 84e4db4): G1-G4 ALL PASS, e=2.7182818284590455, pi=3.141592652354373, e^{i*pi}=-0.9999999999999998+i*1.2e-9 (no imported constants). REG-SLB-002 survey done (artifacts/reg-slb-002-survey.md, no counterexample). Pre-registration overlay published DOI 10.5281/zenodo.21907630 (v1.1; v1.0 21907580 superseded). |
+| 2026-08-12 | QNFO.SLB.002 P9 | **v0.6 PUBLISHED** (DOI 10.5281/zenodo.21907840): FQ3 universal-pi scope amendments (S10.3/S36 scoped to analytic realization) live in the published record. Redistributed + verified: D1 109699, R2 0 diff, Vectorize 161 chunks, KG v0.6, papers.qnfo.org 200. Consolidated closeout 14/14 PASS. |
 
 **Maintenance:** Update at every session touching the treatise (drafting, implementation, or publication). Bump registry version on structural changes. Pre-registration scaffolds MUST be published before implementation begins (per KIF-60 pre-registration requirement — timestamped, immutable record).
