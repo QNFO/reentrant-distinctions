@@ -1,9 +1,9 @@
 {
-  "parent_doi": "10.5281/zenodo.21904763",
-  "parent_record_id": 21904763,
-  "new_record_id": 21904772,
-  "doi": "10.5281/zenodo.21904772",
+  "parent_record_id": 21904772,
+  "new_record_id": 21905186,
+  "doi": "10.5281/zenodo.21905186",
   "conceptdoi": "10.5281/zenodo.21904762",
-  "reserved_doi": "10.5281/zenodo.21904772",
-  "url": "https://zenodo.org/record/21904772"
+  "url": "https://zenodo.org/record/21905186",
+  "version": "v0.3",
+  "reason": "red-team INTERNAL-REF-1 remediation"
 }
