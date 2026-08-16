@@ -2,7 +2,7 @@
 
 > **Project:** QNFO.SLB.002 — The Calculus of Re-Entrant Distinctions
 > **Created:** 2026-08-12 | **Registry version:** v1.0
-> **Canonical DOI:** 10.5281/zenodo.21905186 (v0.3)
+> **Canonical DOI:** 10.5281/zenodo.21908818 (v0.8); latest 10.5281/zenodo.21964453 (v0.9, 2026-08-16 so-what remediation)
 > **Purpose:** Per research v2.64 — any QNFO publication containing frontier questions, falsifiable predictions, or pre-registration scaffolds MUST be tracked in a living registry.
 
 ---
@@ -105,3 +105,4 @@ Status: [PENDING]
 | 2026-08-12 | QNFO.SLB.002 P7 | Registry created v1.0 after v0.3 publication (DOI 10.5281/zenodo.21905186) |
 
 **Maintenance:** Update at every session touching the treatise (drafting, implementation, or publication). Bump registry version on structural changes. Pre-registration scaffolds MUST be published before implementation begins (per KIF-60 pre-registration requirement — timestamped, immutable record).
+- 2026-08-16 — **v0.9 published (DOI 10.5281/zenodo.21964453)**: so-what remediation per the global mandate — new "So What? Why Should a Reader Care About This Research?" section (stakes, foundations/physicist/CS-AI audiences, premises-depth, practical-utility-even-if-parts-fail, explicit non-claims); registry FQ1-FQ6 / P1-P3 / scaffolds unchanged and referenced from the new section; branch resynced from Zenodo v0.8 (had lagged at v0.5c); frontmatter license aligned cc-by-nc-sa-4.0.

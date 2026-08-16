@@ -32,3 +32,4 @@ A 40-section treatise spanning Spencer-Brown's Laws of Form through linear logic
 - The Calculus of Distinction (DOI: 10.5281/zenodo.21205097)
 - Continuum Trilogy (DOI: 10.5281/zenodo.21672990)
 - Five Pillars, One Framework (DOI: 10.5281/zenodo.21789920)
+- **2026-08-16 — v0.9 so-what remediation** (DOI 10.5281/zenodo.21964453): new "So What? Why Should a Reader Care About This Research?" section (global so-what mandate) inserted before Part I; frontmatter version v0.9 + license aligned cc-by-nc-sa-4.0 (record authoritative); branch resynced from Zenodo v0.8 source (branch had lagged at v0.5c).

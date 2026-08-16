@@ -1,11 +1,28 @@
 ---
 title: "The Calculus of Re-Entrant Distinctions: A Unified Treatise on the Loop, the Tree, and the Constants of Self-Reference"
 author: "Rowan Brad Quni-Gudzinas"
-date: "2026-08-12"
-license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "10.5281/zenodo.21906728"
+date: "2026-08-16"
+license: "cc-by-nc-sa-4.0"
+doi: "10.5281/zenodo.21964453"
 status: "published"
+version: "v0.9"
 ---
+
+## So What? Why Should a Reader Care About This Research?
+
+**The stakes.** This treatise develops a single thesis: that the primitive act of distinction — the drawing of a boundary between marked and unmarked — generates, under the discipline of re-entry and linear resource management, the constants $e$ and $\pi$, the landscape of completions of the rational numbers, the loop–tree duality of the Langlands program, the mathematical structure of quantum theory, and the grammar of a universal logical language. If the thesis holds even in part, the most fundamental constants and structures of mathematics and physics are not axioms of nature but consequences of a single primitive act. The reader is entitled to ask: so what — why should anyone care? Three answers follow: what the treatise is *for*, what it makes *possible*, and what it deliberately does *not* claim.
+
+**Why a foundations researcher should care.** The treatise supplies what the modern formal program lacks: a *primitive* — the mark — from which the constants (Part III), the adelic landscape (Part IV), the Langlands duality (Part V), and the physical identities (Part VI) are claimed to arise. Every claim is individually falsifiable and tracked in the Research Continuity Registry (frontier questions FQ1–FQ6, predictions P1–P3, three pre-registration scaffolds): the Re-Entrant Machine (Appendix D) must compute $\pi$ from $\mathrm{Tr}(\mathrm{id}_{S^1})$ and $e$ from $Df = f$ without importing either constant as an axiom, on a 12-month test window. A reader who doubts the thesis can test it; a reader who accepts it gains a unified research program with explicit disconfirmation conditions.
+
+**Why a physicist should care.** Part VI re-describes established quantum mechanics as the physics of the re-entrant mark — explicitly interpretative, not predictive — and Part VII grounds the statistics–information–entropy structure that underlies the companion exchange-phase program (the exchange phase $R = e^{2\pi i s}$ as a logical scalar, developed in the successor record *The Exchange Phase as a Logical Scalar*) and the p-adic anyon program (Temperley–Lieb parameters, braid groups on Bruhat–Tits buildings, anyon fusion). The practical instrument these programs build together is the boundary map of quantum statistics: which statistics are possible, where the premises of the boson/fermion law end, and which physical platforms can host anyonic braiding for topological quantum computation. Even where the treatise is interpretative rather than predictive, its value is a *unified engine*: one calculus that generates the constants, the completions, the duality, and the phase.
+
+**Why a computer scientist or AI researcher should care.** The logical substrate (Part II: linear and differential refinements) and the universal language (Part VIII: traced differential cohesive linear homotopy type theory) are formalisms for self-referential computation: the geometry of interaction, the exponential modality as fixed point, trace semantics. The Re-Entrant Machine (Appendix D) is a concrete implementation target with pre-registered falsification conditions — a testable program, not a metaphor. For AI-assisted research governance, the treatise also carries the ignorance-audit methodology (the Universal Ignorance Audit, deposited with this record) that QNFO applies to its own pipeline: audit before asserting, disclose rather than conceal, verify provenance, invite adversarial validation — the epistemic hygiene that keeps a large AI-assisted corpus trustworthy.
+
+**How deep does it go? Where do the premises end?** The premises-depth audit is explicit throughout: [established] claims (the Spencer-Brown calculus, standard mathematics), [my conjecture] claims (constants as logical scalars, Part III), and interpretative re-descriptions (Part VI — no new physical predictions). The premises end exactly where the parts mark them: the mark itself is primitive; everything else must be derived or conceded. The registry records every frontier question with its disconfirmation condition.
+
+**Practical utility — even if parts fail.** The treatise is structured so that failure is local: the Re-Entrant Machine program, the adelic functional-equation reading, and the p-adic tree construction are independent testable claims. If any one fails, the surviving parts — the linear-logical substrate, the epistemic-hygiene methodology, the constants-as-scalars arithmetic in restricted models — remain usable instruments. A treatise that fails in one appendix but carries three falsifiable pre-registrations and a working methodology is more useful than a shorter paper that claims everything and tests nothing.
+
+**What this treatise does not claim.** No claim that the mark is metaphysically prior to physics (the foundational claim is mathematical, not metaphysical — stated in the Preamble). No new physical predictions beyond re-description of established quantum mechanics (Part VI, explicit). No completed formal proof of the Part VIII system (Appendix D is the open step). No claim that $e$ and $\pi$ have no other origin. What the reader gets: a falsifiable research program, a unified instrument, and an honest boundary map.
 
 ## Part I — Foundations: The Act of Distinction
 
@@ -326,7 +343,7 @@ $$D f = f$$
 
 because the differential combinator of DiLL *is* the structural map of the coKleisli category: the rate of change of a proof is computed by differentiating its Taylor expansion, and the proof whose derivative is itself is the *identity of the exponential structure* [established — the categorical semantics of DiLL; the identification with $e$ is [my conjecture]].
 
-The mathematical content: in the differential category semantics [established — Blute, Cockett & Seely 2006; Ehrhard 2018], the exponential modality $!$ comes with a canonical codereliction map whose associated differential operator has exactly the fixed-point property $D f = f$. The solution of this equation — the exponential function — is therefore not an external constant but the internal fixed point of the modality.
+The mathematical content: in the differential category semantics [established — Blute, Cockett & Seely 2006; Ehrhard 2018], the exponential modality $!$ comes with a canonical codereliction map whose associated differential operator has exactly the fixed-point property $D f = f$. The solution of this equation — the exponential function — is therefore not an external constant but the internal fixed point of the modality. **Model-dependence scoping (per REG-SLB-002, 2026-08-12):** this identification is [established] in analytic DiLL models (the smooth coKleisli model of convenient vector spaces, where Picard–Lindelöf gives the unique solution $e^x$ and the fixed point evaluates to $e$ — artifacts/reg-slb-002-diLL-model.md, reg-slb-001-formalization.md). In discrete models (relational, finiteness spaces) the equation has no analytic solution — $e$ is not definable there — so the claim is undefined, not false, in those models. The identification remains [my conjecture] as a universal categorical theorem.
 
 #### 9.3 The birth of e
 
@@ -364,7 +381,7 @@ This self-duality is the type-theoretic form of the re-entrant mark's self-refer
 
 #### 10.3 The trace of the identity on S^1 yields pi
 
-[my conjecture] The scalar $\pi$ is the *trace of the identity on the circle type*: in the traced/compact closed structure of Part II, the trace of the identity morphism on the self-dual circle object is a scalar, and that scalar is $\pi$.
+[my conjecture] The scalar $\pi$ is the *trace of the identity on the circle type*: in the traced/compact closed structure of Part II, the trace of the identity morphism on the self-dual circle object is a scalar, and that scalar is $\pi$ **in the analytic realization** (where the circle carries its geometric structure and the trace is computed by the Gaussian-integral construction of §11.3). The FQ3 model survey (2026-08-12, artifacts/fq3-universal-pi-survey.md) shows this is **not a universal categorical theorem**: in Rel the trace of identity is a relation, in FinVec it is the dimension, and in topological Cob it is the Euler characteristic — none yields $\pi$. The claim is therefore scoped: it holds where the circle's metric/geometric structure is present, not in bare traced monoidal categories.
 
 The formal content: in a traced monoidal category [established — Joyal, Street & Verity 1996], the trace $Tr(id_{S^1})$ of the identity on the circle object produces an element of the monoidal unit — a scalar. For the circle, this scalar is the circumference-to-diameter ratio:
 
@@ -449,7 +466,7 @@ The identity states: the exponential of the half-turn is the negation. In the la
 
 The claim is [my conjecture] as a *complete* derivation within a single formal system — the full formalization requires the traced differential cohesive linear type theory of Part VIII, where the constants are theorems of the type system (§36). What is [established] is each individual step: the calculus of indications, DiLL, traced categories, HoTT, and Euler's formula are all established mathematics. The novelty of the treatise is the claim that they compose into a single derivation of the Euler identity from the primitive act of distinction.
 
-**Falsifiability condition:** this claim is formally falsifiable: if the formal system of Part VIII cannot derive $e^{i\pi} = -1$ from the re-entrant mark without importing the real numbers and the exponential function as external axioms, the claim of a *purely logical derivation* fails. This is a concrete, checkable claim about the formal system, and Appendix D sketches the computational implementation that would verify it.
+**Falsifiability condition:** this claim is formally falsifiable: if the formal system of Part VIII cannot derive $e^{i\pi} = -1$ from the re-entrant mark without importing the real numbers and the exponential function as external axioms, the claim of a *purely logical derivation* fails. This is a concrete, checkable claim about the formal system, and Appendix D sketches the computational implementation that would verify it. **Model-theoretic proof status (per REG-SLB-001, 2026-08-12):** the analytic-model case is now proven — in the smooth coKleisli model of DiLL, Picard–Lindelöf uniqueness + the Taylor series generate $e$, the Gaussian-integral trace generates $\pi$, and Euler's formula gives $e^{i\pi} = -1$ with both constants generated by the model (artifacts/reg-slb-001-formalization.md; numerically verified by the Re-Entrant Machine v0.3, G1–G4 + U1 all pass). The purely type-theoretic derivation of Part VIII remains [my conjecture] — that is the still-open formal core.
 
 #### 12.3 The status of the constants
 
@@ -600,13 +617,13 @@ where $\xi(s)$ is the completed zeta function. The symmetry $s \leftrightarrow 1
 
 #### 17.1 The completed Riemann zeta function as an adelic trace
 
-[my conjecture] The completed zeta function $\xi(s)$ is the *trace* of the adelic Fourier transform: it is computed by the trace formula that Tate's thesis establishes, and the functional equation is the trace identity
+The completed zeta function $\xi(s)$ is the *trace* of the adelic Fourier transform: it is computed by the trace formula that Tate's thesis establishes, and the functional equation is the trace identity — a reading that is now [established] in the literature, where the explicit formulas of number theory are realized as a trace formula on the noncommutative space of adele classes (Connes 1999, Selecta Math. 5, 29–106; arXiv:math/9811068) and Weil's explicit formula is formulated as a Lefschetz trace formula on the cohomology of the adeles class space (Connes–Consani–Marcolli 2007, arXiv:math/0703392). What remains conjectural in this treatise is not the trace identity itself but its *re-entrant-modal derivation* — the claim that the loop–tree structure of the mark calculus generates that trace, rather than only re-describing it. That modal derivation is [my conjecture].
 
 $$\xi(s) = \xi(1-s)$$
 
 that expresses the self-duality of the adelic structure under the global Fourier transform (§16.3). The trace-theoretic reading connects this part to Part II (§8.2: the trace as feedback): the zeta function is the *feedback loop* of the global distinction system — the invariant that counts the global structure's self-relations.
 
-The precise content: the explicit formula of analytic number theory (Riemann–von Mangoldt) expresses the prime counting function in terms of the zeros of $\zeta(s)$, and this formula has a trace-theoretic interpretation as the trace of an operator on the adelic space [my conjecture — developed in Appendix C].
+The precise content: the explicit formula of analytic number theory (Riemann–von Mangoldt) expresses the prime counting function in terms of the zeros of $\zeta(s)$, and this formula has a trace-theoretic interpretation as the trace of an operator on the adelic space — established in the Connes program (Connes 1999; Connes–Consani–Marcolli 2007; see also the archimedean trace-formula refinement, Connes–Consani 2020, arXiv:2006.13771). The treatise's contribution is the modal reading developed in Appendix C: the specific loop–tree (re-entrant) structure that the trace realizes [my conjecture].
 
 #### 17.2 The symmetry s <-> 1-s as a form of duality
 
@@ -1144,7 +1161,7 @@ The identification: the de Rham stack construction (quotient by $\Im$) computes 
 
 [my conjecture] In the traced differential cohesive linear type theory of this part, the constants are *theorems of the type system*:
 
-- **$\pi$**: the trace of the identity on the circle type $S^1$ (Part III, §10.3) — internalized as a scalar in the type theory: $\pi = Tr^{S^1}(\text{id})$.
+- **$\pi$**: the trace of the identity on the circle type $S^1$ (Part III, §10.3) — internalized as a scalar in the type theory: $\pi = Tr^{S^1}(\text{id})$. **Scoped per FQ3 (2026-08-12):** this holds in the analytic realization of the type theory (where $S^1$ carries its geometric structure and the trace computes via the §11.3 Gaussian construction); it is not a theorem of the bare traced-categorical structure, where the trace of identity is model-dependent (relation in Rel, dimension in FinVec, Euler characteristic in Cob).
 - **$e$**: the fixed point of the differential exponential (Part III, §9) — internalized as the solution of $D f = f$ in the infinitesimal shape modality: $e = f(1)$ where $D f = f$, $f(0) = 1$.
 
 The claim is [my conjecture] in its strong form — that a single type theory derives both constants from its own structure. What is [established] is each component: the circle type, the trace operator, the differential combinator, and the fixed-point equation. The novel claim is their composition into a single system that *computes* the constants.
